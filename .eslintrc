@@ -1,0 +1,22 @@
+{
+  "extends": "standard",
+  "rules": {
+    "semi": [
+      "error",
+      "always"
+    ],
+    "no-var": "error",
+    "space-before-function-paren": [
+      "error",
+      {
+        "asyncArrow": "always",
+        "anonymous": "never",
+        "named": "never"
+      }
+    ],
+    "comma-dangle": [
+      "error",
+      "always-multiline"
+    ]
+  }
+}
